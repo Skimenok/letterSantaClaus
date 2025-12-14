@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Новогоднее Письмо Деду Морозу</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <div class="letter">
+      <div class="date" id="current-date"></div>
+
+      <header>
+        <h1>С Новым 2026 Годом!</h1>
+      </header>
+
+      <div class="salutation">Дорогой Дедушка Мороз!</div>
+
+      <div class="content-text">
+        Меня зовут
+        <span class="editable">Илья</span>. Этот год был полон событий, и я
+        очень старался быть лучше, чем в прошлом году.
+      </div>
+
+      <div class="lists-container">
+        <div class="list-box">
+          <h3>Мои заветные желания:</h3>
+          <ul>
+            <li>Еще больше крутых заказов</li>
+            <li>Крутых подарков на Новый год</li>
+            <li>Вдохновения и мотивации</li>
+            <li>Хочу освоить Phaser.js, после битвы за макбук мне хочется прокачать навыки создания игр</li>
+          </ul>
+        </div>
+        <div class="list-box" style="border-left-color: var(--gold)">
+          <h3 style="color: #b8860b">Мои обещания:</h3>
+          <ul>
+            <li>Выучить React</li>
+            <li>Делать зарядку каждый день</li>
+            <li>Меньше лениться</li>
+            <li>Хорошо учиться</li>
+          </ul>
+        </div>
+      </div>
+
+      <footer>
+        <div class="signature">
+          С верой в чудо, Skimenok<br />
+        </div>
+        <div style="font-size: 3rem">❄️</div>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
