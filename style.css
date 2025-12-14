@@ -138,3 +138,9 @@ footer {
   font-family: "Caveat", cursive;
   font-size: 1.8rem;
 }
+
+@media (max-width: 350px) {
+  .letter {
+    padding: 30px
+  }
+}
